@@ -1,4 +1,4 @@
-alter table "public"."article1" add column "updated_at" timestamptz
+alter table "public"."article" add column "updated_at" timestamptz
  not null default now();
 
 CREATE OR REPLACE FUNCTION "public"."set_current_timestamp_updated_at"()
